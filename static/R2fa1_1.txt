@@ -1,0 +1,12 @@
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '272645', 'fa_in_uPackets': '2408', 'fa_out_oct': '484014', 'fa_out_uPackets': '3961', 'time': '2021-01-18T14:11:00.130176'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '672014', 'fa_in_uPackets': '5994', 'fa_out_oct': '1189814', 'fa_out_uPackets': '9811', 'time': '2021-01-18T14:30:15.513267'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '755668', 'fa_in_uPackets': '6794', 'fa_out_oct': '1324981', 'fa_out_uPackets': '10926', 'time': '2021-01-18T14:35:00.790227'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '803145', 'fa_in_uPackets': '7243', 'fa_out_oct': '1404927', 'fa_out_uPackets': '11581', 'time': '2021-01-18T14:39:06.751149'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '851926', 'fa_in_uPackets': '7728', 'fa_out_oct': '1486136', 'fa_out_uPackets': '12257', 'time': '2021-01-18T14:42:02.892967'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '923211', 'fa_in_uPackets': '8478', 'fa_out_oct': '1598052', 'fa_out_uPackets': '13190', 'time': '2021-01-18T14:49:11.860824'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '972538', 'fa_in_uPackets': '8958', 'fa_out_oct': '1680099', 'fa_out_uPackets': '13865', 'time': '2021-01-18T14:53:12.351599'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '975335', 'fa_in_uPackets': '8988', 'fa_out_oct': '1683021', 'fa_out_uPackets': '13895', 'time': '2021-01-18T14:53:35.530427'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '976670', 'fa_in_uPackets': '8988', 'fa_out_oct': '1684431', 'fa_out_uPackets': '13895', 'time': '2021-01-18T14:53:39.071516'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '978039', 'fa_in_uPackets': '9019', 'fa_out_oct': '1685875', 'fa_out_uPackets': '13926', 'time': '2021-01-18T14:53:41.372897'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '979314', 'fa_in_uPackets': '9019', 'fa_out_oct': '1687225', 'fa_out_uPackets': '13926', 'time': '2021-01-18T14:53:43.721022'}
+{'interface_name': 'FastEthernet1/1', 'fa_in_oct': '1186674', 'fa_in_uPackets': '10812', 'fa_out_oct': '2036728', 'fa_out_uPackets': '16736', 'time': '2021-01-18T15:21:21.556490'}

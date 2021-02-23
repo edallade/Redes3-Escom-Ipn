@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Lost packages
+	</title>
+	<link rel="stylesheet" type="text/css" href="../static/lostPack.css">
+</head>
+<body>
+	<div id="titulo">
+		<p>Selecione los routers para la comprobacion de paquetes perdidos entre ese enlace</p>
+	</div>
+	<div id="boxOne">
+		<form action="sendLongPING" method="post">
+		<div id="puntoA">
+		<label for="optA">Remitente :</label>
+		<select class="boton1 "name="optA" id="optA">
+			{% for host in hosts %}
+			<option value="{{host}}">{{host}}</option>
+			{%endfor%}
+		</select>
+	</div>
+	<div id="puntoB">
+		<label for="optB">Destinatario :</label>
+		<select class="boton1" name="optB"id="optB">
+			{% for host in hosts %}
+			<option value="{{host}}">{{host}}</option>
+			{%endfor%}
+		</select>
+	</div>
+	<div id="botOk">
+		<input type="submit" name="boton1" value="comprobar" class ="boton1">
+	</div>
+	</form>
+	</div>
+</body>
+</html>

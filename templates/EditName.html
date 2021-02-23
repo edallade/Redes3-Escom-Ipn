@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit host nama</title>
+	<link rel="stylesheet" type="text/css" href="../static/editP.css">
+</head>
+<body>
+	<div class="prin">
+		<div class="inside">
+			<p>seleccione router para renombrar</p><br>
+			<form action="/EditProcces" method="post" id="f1">
+				<select class="boton1" id="oldHostName" name="oldHostName">
+					{%for name in names%}
+						<option value="{{name}}">{{name}}</option>
+					{%endfor%}
+				</select>
+				<p>Nuevo nombre del Router</p>
+				<input type="text" name="newHostName" id="newHostName">
+				<br>
+				<input class="boton1" type="submit" name="acept" value="Aceptar">
+			</form>
+	    </div>
+
+	</div>
+</body>
+</html>

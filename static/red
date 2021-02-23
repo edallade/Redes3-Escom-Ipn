@@ -1,0 +1,39 @@
+graph red {
+	"linux mint" [label="MV
+192.168.0.2" shape=rectangle]
+	switch [shape=rectangle]
+	"linux mint" -- switch
+	R1 [label="R1
+FastEthernet0/0 192.168.0.0 192.168.0.1 255.255.255.252 
+FastEthernet1/1 192.168.0.4 192.168.0.5 255.255.255.252 
+FastEthernet1/0 192.168.0.16 192.168.0.17 255.255.255.252 
+" shape=rectangle]
+	R2 [label="R2
+FastEthernet0/0 192.168.0.8 192.168.0.9 255.255.255.252 
+FastEthernet1/0 192.168.0.12 192.168.0.13 255.255.255.252 
+FastEthernet1/1 192.168.0.4 192.168.0.6 255.255.255.252 
+" shape=rectangle]
+	R3 [label="R3
+FastEthernet0/0 192.168.0.8 192.168.0.10 255.255.255.252 
+" shape=rectangle]
+	R4 [label=R4
+ shape=rectangle]
+	R5 [label="R5
+FastEthernet0/0 192.168.0.24 192.168.0.25 255.255.255.252 
+FastEthernet1/0 192.168.0.16 192.168.0.18 255.255.255.252 
+FastEthernet1/1 192.168.0.20 192.168.0.21 255.255.255.252 
+" shape=rectangle]
+	R6 [label="R6
+FastEthernet1/1 192.168.0.20 192.168.0.22 255.255.255.252 
+" shape=rectangle]
+	R7 [label="R7
+FastEthernet0/0 192.168.0.24 192.168.0.26 255.255.255.252 
+" shape=rectangle]
+	switch -- R1 [label="192.168.0.0"]
+	R1 -- R2 [label="192.168.0.4"]
+	R1 -- R5 [label="192.168.0.16"]
+	R2 -- R3 [label="192.168.0.8"]
+	R2 -- R4 [label="192.168.0.12"]
+	R5 -- R7 [label="192.168.0.24"]
+	R5 -- R6 [label="192.168.0.20"]
+}

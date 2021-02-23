@@ -1,0 +1,25 @@
+.formulario {
+
+	text-align: center;
+	margin-top: 5px;
+}
+#makeCons{
+	margin: 0px auto;
+}
+
+.graficas {
+	display: inline;
+	margin: 150px;
+	padding: 20px,100px;
+	}
+img {
+	margin: 0px auto;
+	margin: 20px;
+	border: 10px;
+	width: 330px;
+	height: 330px;
+}
+
+.title{
+	text-align: center;
+}

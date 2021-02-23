@@ -1,0 +1,5 @@
+{'interface_name': 'FastEthernet0/0', 'fa_in_oct': '2727384', 'fa_in_uPackets': '24823', 'fa_out_oct': '4775589', 'fa_out_uPackets': '40039', 'time': '2021-01-18T15:24:44.767647'}
+{'interface_name': 'FastEthernet0/0', 'fa_in_oct': '2728659', 'fa_in_uPackets': '24823', 'fa_out_oct': '4777000', 'fa_out_uPackets': '40039', 'time': '2021-01-18T15:24:49.553555'}
+{'interface_name': 'FastEthernet0/0', 'fa_in_oct': '2729976', 'fa_in_uPackets': '24854', 'fa_out_oct': '4778651', 'fa_out_uPackets': '40072', 'time': '2021-01-18T15:25:00.109770'}
+{'interface_name': 'FastEthernet0/0', 'fa_in_oct': '2731251', 'fa_in_uPackets': '24854', 'fa_out_oct': '4780002', 'fa_out_uPackets': '40072', 'time': '2021-01-18T15:25:03.518988'}
+{'interface_name': 'FastEthernet0/0', 'fa_in_oct': '2732526', 'fa_in_uPackets': '24854', 'fa_out_oct': '4781413', 'fa_out_uPackets': '40072', 'time': '2021-01-18T15:25:05.936801'}

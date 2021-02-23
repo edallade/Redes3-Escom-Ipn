@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{{info.hostname}}
+	</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='R1.css')}}">
+</head>
+<body>
+	<div class="title">
+		{% for data in info %}
+			<li>{{data}} : {{info[data]}}</li>
+		{%endfor%}
+	</div>
+	<div class="graficas">
+			<img src="" id="img1" >
+			<img src="" id="img2">
+			<img src=""  id="img3" >
+
+	</div>
+	<div class="formulario">
+		<form action="/consulta" id="f1" method="post">
+			<input type="hidden" name="hostname" id="hostname" value="{{info.hostname}}">
+			<input type="submit" name="makeCons" id="makeCons" value="monitorear interfaces">
+			
+		</form>
+	</div>
+</body>
+
+<script type="text/javascript">
+		function recargar_imagen(){
+			
+			document.getElementById('img1').src="";
+			document.getElementById('img2').src="";
+			document.getElementById('img3').src="";
+			document.getElementById('img1').src="../static/{{info.hostname}}fa0_0img.png";
+			document.getElementById('img2').src="../static/{{info.hostname}}fa1_0img.png";
+			document.getElementById('img3').src="../static/{{info.hostname}}fa1_1img.png";
+			console.log('hola');
+		};
+		window.onload = function(){
+
+			recargar_imagen();
+			
+		};
+	timer = setInterval("recargar_imagen()", 1000);
+	</script>
+</html>
